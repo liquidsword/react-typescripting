@@ -4,15 +4,15 @@ import './App.css';
 
 import Message from './Message';
 
-class App extends Component {
-  render() {
-   
+class App extends Component <any>{
 
+  
+  render() {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-         <Message message= 'This is an awesome message' />      
+         <Message name= 'Lord Auden' message= 'This is an awesome message' />      
         </header>
       </div>
     );
