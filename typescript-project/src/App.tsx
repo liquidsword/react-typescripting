@@ -4,6 +4,14 @@ import './App.css';
 
 import Message from './Message';
 
+const initialState = {
+  name: 'Captain BoneCrusher',
+  message: 'Typescript is awesome!!'
+}
+
+type State = Readonly<typeof initialState>;
+
+
 class App extends Component <any>{
 
   
